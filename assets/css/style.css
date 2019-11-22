@@ -55,6 +55,7 @@ h2{
     margin: auto; 
     background-color: #ffffff;
     box-shadow: 0 0 10px #dddddc;
+    
 
 }
 .img-text {
@@ -69,6 +70,7 @@ h2{
  .footer{
      
      border-top: 8px solid #4aaaa5;
+     background-color: #666666;
     
     
  }
@@ -83,4 +85,28 @@ h2{
 p2{
     color: #777777;
 }
+.images{
+    width: 250px;
+    height: 250px;
+    padding-left: 25px;
+    padding-inline: 25px;
+}
+.img-content {
+    top: -40px;
+    left: 110px;
+    position: relative;
+    background-color: aquamarine;
+    width: fit-content;
+    border-block: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 
