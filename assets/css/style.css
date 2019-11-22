@@ -11,15 +11,22 @@ body{
     width: 960px;
     border: 1px red solid;
     margin: auto
+    
+}
+h1{
+    background-color: teal;
+    margin: auto;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     border: 1px blue solid;
-    font-size: 13px;
+    font-size: 10px;
     padding-right: 15px;
-    
+    margin: auto;
+
 }
 .sub-headers {
     display: flex;
@@ -27,12 +34,14 @@ body{
     width: 250px;
     align-items: right;
     border: 1px green solid;
+    font-size: 15px;
+    
     
 }
 .content {
-    padding: 0 20px;
-    border: 1px purple solid;
-    margin: 0 auto;
+    padding:  20px;
+    margin: auto;
+    border-block: 20px;
     
 }
 .img-text {
@@ -42,13 +51,17 @@ body{
 
 .line {
     border: 1px solid;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
  .footer{
      
      border-top: 8px solid #4aaaa5;
     
  }
+.text{
+    margin: 0 auto;
+    padding-left: 10px;
 
+}
 
 
