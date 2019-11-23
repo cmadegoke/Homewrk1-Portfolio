@@ -115,9 +115,12 @@ p2{
 }
 .submit-button{
 background-color: teal;
-size: 100%;
+font-size: 14px;
+padding: 10px;
 
-
+}
+.contact-info{
+    color: #777777;
 }
 
 
