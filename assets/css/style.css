@@ -5,6 +5,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 960px;
     background-color: #4aaaa5;
+    width: 960px;
+    margin: auto;
 
 
 
@@ -71,8 +73,7 @@ h2{
      
      border-top: 8px solid teal;
      background-color: #666666;
-    
-    
+     
  }
 .text{
     margin: 0 auto;
@@ -89,25 +90,33 @@ p2{
     width: 250px;
     height: 250px;
     padding-left: 25px;
-    padding-inline: 25px;
+    padding-top: 30px;
+    text-align: justify;
+    border: teal 2px;
 }
 .img-content {
-    top: -40px;
-    left: 110px;
+    
+    padding: 15px;
+    padding-bottom: 25px;
+    float: left;
     position: relative;
     background-color: aquamarine;
-    width: fit-content;
-    border-block: 100%;
+    width: 50%;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    text-align: center;
 }
 
 .img-container {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 .submit-button{
-background-color: teal
+background-color: teal;
+size: 100%;
+
 
 }
 
